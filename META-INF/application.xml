@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application id="Application_ID" version="1.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/application_1_4.xsd">
+<display-name>JavaEEHelloWorldEAR</display-name>
+<module id="JavaEEHelloWorld-Web">
+    <web>
+        <web-uri>JavaEEHelloWorld-1.0-SNAPSHOT.war</web-uri>
+        <context-root>JavaEEHelloWorldWeb</context-root>
+    </web>
+</module>
+</application>
